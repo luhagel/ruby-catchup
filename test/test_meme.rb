@@ -9,6 +9,6 @@ class TestMeme < Minitest::Test
   end
 
   def test_that_kitty_can_eat
-    assert_equal "OHAI!", @meme.i_can_has_cheezburger?
+    assert "OHAI!" == @meme.i_can_has_cheezburger?
   end
 end
